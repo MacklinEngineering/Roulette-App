@@ -1,0 +1,55 @@
+Build a simple Roulette App -
+
+ public should be able to bet any amount and either win or lose - 
+
+casino owner should be able to log in and see the total wins / losses &&
+
+ how much money has been made || lost. 
+
+FIRST red and black 
+Red & Black 50/50 chance 
+two buttons?
+
+
+
+ //
+
+  Bets
+    1 chosen: red
+    2 wager:10
+    3 won: true
+  Actual
+  1 chosen:black
+  2 wager:10
+  3 won: false
+Bank
+  1 total:200M
+  2 wins:
+  3 lost:
+POST
+fetch or form condition
+PUT (update)
+client side: fetch request is only thing that triggers PUT request
+POST
+only way to put something in a database
+GET
+Page reload or type in URL
+* Owner
+one doc to keep track of Bank
+don't need form for doc info on server side
+Database
+  collection
+    Bank
+      1 document with
+        total
+        wins
+        loss
+Owners log-in only see's form for DB
+CLIENT side
+did a fetch, fetch makes PUT request
+PUT updates the DB
+API updates PUT
+Page reload
+Get document into DB
+client side JS
+API handle put to update stuff in document
